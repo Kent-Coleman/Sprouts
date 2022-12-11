@@ -1,4 +1,4 @@
-# Sprouts2
+# Sprouts
 
 Simple Video Game
 
