@@ -219,17 +219,17 @@ func init() {
 	rl.SetTargetFPS(60)
 
 	//Map source files
-	grassSprite = rl.LoadTexture("Resources/Sprouts/TileSets/GroundTiles/NewTiles/GrassTiles.png")
-	mountainSprite = rl.LoadTexture("Resources/Sprouts/TileSets/GroundTiles/NewTiles/MountainTiles.png")
-	fenceSprite = rl.LoadTexture("Resources/Sprouts/TileSets/BuildingParts/FenceTiles.png")
-	houseSprite = rl.LoadTexture("Resources/Sprouts/TileSets/BuildingParts/HouseTiles.png")
-	waterSprite = rl.LoadTexture("Resources/Sprouts/TileSets/WaterTiles.png")
-	tilledSprite = rl.LoadTexture("Resources/Sprouts/TileSets/GroundTiles/NewTiles/TilledTiles.png")
+	grassSprite = rl.LoadTexture("Resources/TileSets/GroundTiles/NewTiles/GrassTiles.png")
+	mountainSprite = rl.LoadTexture("Resources/TileSets/GroundTiles/NewTiles/MountainTiles.png")
+	fenceSprite = rl.LoadTexture("Resources/TileSets/BuildingParts/FenceTiles.png")
+	houseSprite = rl.LoadTexture("Resources/TileSets/BuildingParts/HouseTiles.png")
+	waterSprite = rl.LoadTexture("Resources/TileSets/WaterTiles.png")
+	tilledSprite = rl.LoadTexture("Resources/TileSets/GroundTiles/NewTiles/TilledTiles.png")
 
 	tileDest = rl.NewRectangle(0, 0, 10, 10) //Size of displayed image
 	tileSrc = rl.NewRectangle(0, 0, 8, 8)    //Based on pixels of source image
 
-	playerSprite = rl.LoadTexture("Resources/Sprouts/Characters/PremiumCharacterSpriteSheet.png")
+	playerSprite = rl.LoadTexture("Resources/Characters/PremiumCharacterSpriteSheet.png")
 
 	playerSrc = rl.NewRectangle(0, 0, 48, 48)
 	playerDest = rl.NewRectangle(200, 200, 31, 31) //Player size
